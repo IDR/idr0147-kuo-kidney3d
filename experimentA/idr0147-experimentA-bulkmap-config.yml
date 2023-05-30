@@ -39,6 +39,53 @@ columns:
     clientname: Image File Type
     include: yes
 
+  - name: ROI Original Dataset
+    clientname: ROI Original Dataset
+    include: yes
+
+  - name: ROI X Coordinate
+    clientname: ROI X Coordinate
+    include: yes
+
+  - name: ROI Y Coordinate
+    clientname: ROI Y Coordinate
+    include: yes
+
+  - name: ROI Z Coordinate
+    clientname: ROI Z Coordinate
+    include: yes
+
+  - name: ROI X Size
+    clientname: ROI X Size
+    include: yes
+
+  - name: ROI Y Size
+    clientname: ROI Y Size
+    include: yes
+
+  - name: ROI Z Size
+    clientname: ROI Z Size
+    include: yes
+
+  - name: Comment [ROI Indexing]
+    clientname: ROI Indexing
+    include: yes
+
+  - name: Comment [ROI Dimensions]
+    clientname: ROI Dimensions
+    include: yes
+
+  - name: Glomeruli - number identified by machine learning
+    clientname: Glomeruli - number identified by machine learning
+    include: yes
+
+  - name: Glomeruli - number of false positives
+    clientname: Glomeruli - number of false positives
+    include: yes
+
+  - name: Glomeruli - number of false negatives estimated by sterology
+    clientname: Glomeruli - number of false negatives estimated by sterology
+    include: yes
 
   ######################################################################
   # mapr groups
