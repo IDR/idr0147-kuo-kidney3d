@@ -68,11 +68,11 @@ columns:
     include: yes
 
   - name: Comment [ROI Indexing]
-    clientname: ROI Indexing
+    clientname: ROI Indexing Comment
     include: yes
 
   - name: Comment [ROI Dimensions]
-    clientname: ROI Dimensions
+    clientname: ROI Dimensions Comment
     include: yes
 
   - name: Glomeruli - number identified by machine learning
