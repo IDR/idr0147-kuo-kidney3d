@@ -1,0 +1,103 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.																
+																																	
+# STUDY DESCRIPTION SECTION																																	
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details																																	
+																																	
+Comment[IDR Study Accession]	idr0147																																
+Study Title	Terabyte-scale supervised 3D training and benchmarking dataset of the mouse kidney 
+Study Type	machine learning																																
+Study Type Term Source REF	OBI																																
+Study Type Term Accession	0002587																																
+Study Description	The performance of machine learning algorithms, when used for segmenting 3D biomedical images, does not reach the level expected based on results achieved with 2D photos. This may be explained by the comparative lack of high-volume, high-quality training datasets, which require state-of-the art imaging facilities, domain experts for annotation and large computational and personal resources. The HR-Kidney dataset presented in this work bridges this gap by providing 1.7 TB of artefact-corrected synchrotron radiation-based X-ray phase-contrast microtomography images of whole mouse kidneys and validated segmentations of 33 729 glomeruli, which corresponds to a one to two orders of magnitude increase over currently available biomedical datasets. The image sets also contain the underlying raw data, threshold- and morphology-based semi-automatic segmentations of renal vasculature and uriniferous tubules, as well as true 3D manual annotations. We therewith provide a broad basis for the scientific community to build upon and expand in the fields of image processing, data augmentation and machine learning, in particular unsupervised and semi-supervised learning investigations, as well as transfer learning and generative adversarial networks.
+Study Key Words	kidney	glomeruli	blood vessels	tubules	whole organ imaging	mouse	computed tomography	propagation-based phase contrast	synchrotron	vascular casting	micrometer resolution	contrast agent	machine learning	segmentation	training data	scattering transform	terabyte scale data	manual annotation	
+
+Study Organism	Mus musculus
+Study Organism Term Source REF	NCBITaxon																																
+Study Organism Term Accession	10090																																
+Study Experiments Number	1
+Study External URL	
+Study BioImage Archive Accession																																
+Study Public Release Date																																	
+																																	
+# Study Publication																																	
+Study PubMed ID																																	
+Study Publication Title	Terabyte-scale supervised 3D training and benchmarking dataset of the mouse kidney																																
+Study Author List	Kuo W, Rossinelli D, Schulz G, Wenger RH, Hieber S, Müller B, Kurtcuoglu V																																
+Study PMC ID	
+Study DOI																																	
+																																	
+# Study Contacts																																	
+Study Person Last Name	Kurtcuoglu	Kuo
+Study Person First Name	Vartan	Willy
+Study Person Email	vartan.kurtcuoglu@uzh.ch	willy.kuo@uzh.ch																															
+Study Person Address	Institute of Physiology, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland	Institute of Physiology, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland
+Study Person ORCID	0000-0003-2665-0995	0000-0002-0870-7997
+Study Person Roles	corresponding author	submitter																																
+																																	
+# Study License and Data DOI																																	
+Study License	CC BY 4.0																																
+Study License URL	https://creativecommons.org/licenses/by/4.0/																																
+Study Copyright	Kuo at al																																
+Study Data Publisher	University of Dundee																																
+Study Data DOI																																	
+																																	
+Term Source Name	NCBITaxon	EFO	CMPO	FBbi																													
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/																													
+																																	
+																																	
+# EXPERIMENT SECTION																																	
+# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment																																	
+																																	
+Experiment Number	1																																
+Comment[IDR Experiment Name]	idr0147-kuo-kidney3d/experimentA
+Experiment Sample Type	tissue																															
+Experiment Description	C57BL/6J mice were purchased from Janvier Labs (Le Genest-Saint-Isle, France) and kept in individually ventilated cages with ad libitum access to water and standard diet (Kliba Nafag 3436, Kaiseraugst, Switzerland) in 12 h light/dark cycles. Dataset 1 derives from the left kidney of a male mouse, 15 weeks of age with a body weight of 28.0 g. Dataset 2 is the right kidney of the same mouse. Dataset 3 derives from the right kidney of a female mouse, 15 weeks of age with a body weight of 22.5 g. All animal experiments were approved by the cantonal veterinary office of Zurich, Switzerland, in accordance with the Swiss federal animal welfare regulations (license numbers ZH177/13 and ZH233/15). Mice were anaesthetized with ketamine/xylazine. A blunted 21G butterfly needle was inserted retrogradely into the abdominal aorta and fixed with a ligation. The abdominal aorta and superior mesenteric artery above the renal arteries were ligated, the vena cava opened as an outlet and the kidneys were flushed with 10 ml, 37 °C phosphate-buffered saline (PBS) to remove the blood, then fixed with 50 ml 37 °C 4 % paraformaldehyde in PBS (PFA) solution at 150 mmHg hydrostatic pressure.	2.4 g of 1,3-diiodobenzene (Sigma-Aldrich, Schnelldorf, Germany) were dissolved in 7.5 g of 2-butanone (Sigma-Aldrich) and mixed with 7.5 g PU4ii resin (vasQtec, Zurich, Switzerland) and 1.3 g PU4ii hardener. The mixture was filtered through a paper filter and degassed extensively in a vacuum chamber to minimize bubble formation during polymerization, and perfused at a constant pressure of no more than 200 mmHg until the resin mixture solidified. Kidneys were excised and stored in 15 ml 4 % PFA. For scanning, they were embedded in 2 % agar in PBS in 0.5 ml polypropylene centrifugation tubes. Kidneys were quality-checked with a nanotom® m (phoenix|x-ray, GE Sensing & Inspection Technologies GmbH, Wunstorf, Germany). Samples showing insufficient perfusion or bleeding of resin into the renal capsule or sinuses were excluded. Kidneys were scanned at the ID19 tomography beamline of the European Synchrotron Radiation Facility (ESRF, Grenoble, France) using pink beam with a mean photon energy of 19 keV. Radiographs were recorded at a sample-detector distance of 28 cm with a 100 µm Ce:LuAG scintillator, 4× magnification lens and a pco.edge 5.5 camera with a 2560 × 2160 pixel array and 6.5 µm pixel size, resulting in an effective pixel size of 1.625 µm. Radiographs were acquired with a half-acquisition scheme in order to extend the field of view to 8 mm. Six height steps were recorded for each kidney, with half of the vertical field of view overlapping between each height step, resulting in fully redundant acquisition of the inner height steps. 5125 radiographs were recorded for each height step with 0.1 s exposure time, resulting in a scan time of 1 h for a whole kidney. 100 flat-field images were taken before and after each height step for flat-field correction. Images were reconstructed using the beamline’s in-house PyHST2 software, using a Paganin-filter with a low δ/β ratio of 50 to limit loss in resolution and appearance of gradients close to large vessels. Registration for stitching two half-acquisition radiographs to the full field of view was performed manually with 1 pixel accuracy. Data size for the reconstructed datasets was 1158 GB per kidney. Outliers in intensity in the recorded flat fields were segmented by noise reduction with 2D continuous curvelets, followed by thresholding to calculate radius and coordinates of the ring artefacts. The redundant acquisition of the central four height steps allowed us to replace corrupted data with a weighted average during stitching. The signals of the individual slices were zeroed in the presence of the rings, summed up and normalized by counting the number of uncorrupted signals. In the outer slices, where no redundant data was available, and in locations where rings coincided in both height steps, we employed a discrete cosine transform-based inpainting technique with a simple iterative approach, where we picked smoothing kernels progressively smaller in size and reconstructed the signal in the target areas by smoothing the signal everywhere at each iteration. The smoothed signal in the target areas was then combined with the original signal elsewhere to form a new image. In the next iteration, in turn, the new image was then smoothed to rewrite the signal at the target regions. The final inpainted signal exhibits multiple scales since different kernel widths are considered at different iterations. The alignment for stitching the six stacks was determined by carrying out manual 3D registration and double checking against pairwise stack-stack phase-correlation analysis. The stitching process reduced the dataset dimensions per kidney to 4608 × 4608 × 7168 pixels, totaling 567 GB.	We performed image enhancement based on 3D discretized continuous curvelets, in a similar fashion as Starck et al., but with second generation curvelets (i.e., no Radon transform) in 3D. The enhancement was carried out globally by leveraging the Fast Fourier Transform with MPI-FFTW, considering about 100 curvelets. The “wedges” (curvelets in the spectrum) have a conical shape and cover the unit sphere in an approximately uniform fashion. For a given curvelet, a per-pixel coefficient is obtained by computing an inverse Fourier transform of its wedge and the image spectrum. We then truncated these coefficients in the image domain against a hard threshold, and forward-transformed the curvelet again into the Fourier space, modulated the curvelets with the truncated coefficients and superposed them. As a result, the pixel intensities were compressed to a substantially smaller range of values, thus helping to avoid over- and under-segmentation of large and small vessels, respectively. A threshold-based segmentation followed the image enhancement. The enhancement parameters and threshold were manually chosen by examining six randomly chosen regions of interest. Spurious islands were removed by 26-connected component analysis, and cavities were removed by 6-connected component analysis. The bulk of the processing workload, required to transform data into an actionable training set, was carried out at the Zeus cluster of the Pawsey supercomputing centre. Zeus consisted of hundreds of computing nodes featuring Intel Xeon Phi (Knights Landing) many-core CPUs, together with 96 GB of ``special’’ high-bandwidth memory (HBM/MCDRAM), as well as 128 GB of conventional DDR4 RAM. The final training and assessments were carried out at the Euler VI cluster of ETH Zurich, with two-socket nodes featuring AMD EPYC 7742 (Rome) CPUs and 512 GB of DDR4 RAM. A machine learning-based approach relying on invariant scattering convolution networks was employed to segment the glomeruli and remove perirenal fat from the blood vessel segment. For the glomerular training data, three selected regions of interest of 512 × 256 × 256 voxels in size were selected from the cortical region of one kidney (dataset 2) and segmented by a single annotator by fully manual contouring in all slices. For the fat, manual work was reduced by providing an initial semiautomatic segmentation, which the manual annotation then corrected. The training data were supplemented by additional regions of interest that contained no glomeruli or fat at all, and thus did not require manual annotation. The manual annotations were then used to train a hybrid algorithm that relied on a 3D scattering transform convolutional network topped with a dense neural network. The scattering transform relied upon ad-hoc designed 3D kernels (Morlet’s wavelet with different sizes and orientations) that uniformly covered all directions at different scales. In the scattering convolutional network, filter nonlinearities were obtained by taking the magnitude of the filter responses and convolving them again with the kernels in a cascading fashion. These nonlinearities are designed to be robust against small Lipschitz-continuous deformations of the image. In contrast to our curvelet-based image enhancement approach, we decomposed the image into cubic tiles, then applied a windowed (thus local) Fourier transform on the tiles by considering regions about twice their size around them. While it would have been possible to use a convolutional network based upon a global scattering transform, this would have produced a very large number of features that would have had to be consumed at once, leading to an intermediate footprint in the petabyte-scale, exceeding the available memory of the cluster. The scattering transform convolutional network produced a stack of a few hundred scalar feature maps per pixel. If considered as a “fiber bundle”, the feature map stack is equivariant under the symmetry group of rotations (i.e., the stack is a regular representation of the 3D rotation group SO(3)). This property can be exploited by further processing the feature maps with a dense neural network with increased parameter sharing across the hidden layers, making the output layer-invariant to rotations.
+Experiment Size	5D Images: 	Average Image Dimension (XYZCT): 4608 x 4608 x 7168 x 1 x 1	Total Tb: 													
+Experiment Example Images																													
+Experiment Imaging Method	X-Ray Microtomography																													
+Experiment Imaging Method Term Source REF	OMIT																																
+Experiment Imaging Method Term Accession	0026155																																
+Experiment Organism																														
+Experiment Organism Term Source REF	NCBITaxon																																
+Experiment Organism Term Accession																																
+Experiment Comments	synchrotron radiation-based X-ray phase-contrast microtomography (SRµCT)																																	
+																																	
+# assay files																																	
+Experiment Assay File	idr0147-experimentA-annotation																														
+Experiment Assay File Format	tab-delimited text																																
+Assay Experimental Conditions																																	
+Assay Experimental Conditions Term Source REF																																	
+Assay Experimental Conditions Term Accession																																	
+Quality Control Description																																	
+																																	
+# Protocols																																	
+Protocol Name	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
+Protocol Type	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol																													
+Protocol Type Term Source REF	EFO	EFO																															
+Protocol Type Term Accession	EFO_0003789	EFO_0003969																															
+Protocol Description																											
+																																	
+# Phenotypes																																	
+Phenotype Name																																	
+Phenotype Description																																	
+Phenotype Score Type																																	
+Phenotype Term Source REF	CMPO																																
+Phenotype Term Name																																
+Phenotype Term Accession																														
+																																	
+# Feature Level Data Files (give individual file details unless there is one file per well)																																	
+Feature Level Data File Name																																	
+Feature Level Data File Format																																	
+Feature Level Data File Description																																	
+Feature Level Data Column Name																																	
+Feature Level Data Column Description																																	
+																																	
+#  Processed Data Files 																																	
+Processed Data File Name																																	
+Processed Data File Format	tab-delimited text																																
+Processed Data File Description																																	
+Processed Data Column Name																															
+Processed Data Column Type																
+Processed Data Column Annotation Level																														
+Processed Data Column Description																																	
+Processed Data Column Link To Assay File		
