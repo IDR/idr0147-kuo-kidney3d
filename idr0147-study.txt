@@ -20,11 +20,11 @@ Study BioImage Archive Accession
 Study Public Release Date	2023-06-19																																	
 																																	
 # Study Publication																																	
-Study PubMed ID																																	
+Study PubMed ID	37537174																																	
 Study Publication Title	Terabyte-scale supervised 3D training and benchmarking dataset of the mouse kidney																																
 Study Author List	Kuo W, Rossinelli D, Schulz G, Wenger RH, Hieber S, Müller B, Kurtcuoglu V																																
-Study PMC ID	
-Study DOI																																	
+Study PMC ID	PMC10400611
+Study DOI	https://doi.org/10.1038/s41597-023-02407-5																															
 																																	
 # Study Contacts																																	
 Study Person Last Name	Kurtcuoglu	Kuo
